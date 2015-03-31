@@ -26,9 +26,11 @@ $(document).ready(function() {
 				}
 			} else {
 				alert("Whole numbers only");
+				$v1.val('');
 			}
 		} else {
 			alert("Enter a number");
+			$v1.val('');
 		}
 	});
 
@@ -51,9 +53,11 @@ $(document).ready(function() {
 				}
 			} else {
 				alert("Whole numbers only");
+				$v2.val('');
 			}
 		} else {
 			alert("Enter a number");
+			$v2.val('');
 		}
 	});
 
